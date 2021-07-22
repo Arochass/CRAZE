@@ -9560,7 +9560,13 @@ function _typeof(obj) { "@babel/helpers - typeof"; if (typeof Symbol === "functi
 var lscroll = new _locomotiveScroll.default({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
-  direction: 'horizontal'
+  direction: 'horizontal',
+  mobile: {
+    smooth: true
+  },
+  tablet: {
+    smooth: true
+  }
 });
 lscroll.init();
 lscroll.on('scroll', function (args) {
@@ -9570,8 +9576,6 @@ lscroll.on('scroll', function (args) {
     var rotateDeg = 720 * progress;
     var circle = document.querySelectorAll('[data-scroll-id="circle"]')[0];
     circle.style.transform = "rotate(".concat(rotateDeg, "deg)");
-    console.log(rotateDeg); // circle.style.transform = "translateX(60vw)";
-    // circle.style.transform = "translateY(40vh)";
   }
 
   if (_typeof(args.currentElements['changeimg']) === 'object') {
@@ -9644,7 +9648,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51151" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51322" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
