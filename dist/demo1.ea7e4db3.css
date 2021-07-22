@@ -418,21 +418,6 @@ h2 {
 	z-index: -10;
   }
 
-  /* .clothes {
-	width: 500px;
-	padding-bottom: 700px;
-	background-size: cover;
-	transition: background 0.5s ease;
-	background-image: url("/img/foreground/casual2.png");
-
-  } */
-
-  /* .img-fixed {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-  } */
-
   .clothes-box {
 	margin: 55px;
 	position: absolute;
@@ -939,7 +924,91 @@ p {
 		line-height: 100%;
 	}
 }
-
+@media only screen and (max-width: 414px) {
+	.text-home {
+		top: 13vh;
+		left: 20vw;
+	}
+	.circle-start {
+		transform: translate(13vw, 55vh);
+	}
+	.overview {
+		width: 100vw;
+	}
+	.polaroid img{
+		width: 100vw;
+	}
+	.intro {
+		width: 200vw;
+	}
+	.back-in-to {
+		width: 100vw;
+		height: 100vh;
+	}
+	.text-back-in-to {
+		font-size: 84px;
+	}
+	.line {
+		width: 50vw;
+		top: 50vh;
+	}
+	.char9 {
+		font-size: 64px;
+		left: 16vw;
+		bottom: 5vh;
+	}
+	.dot-back-in-to {
+		width: 80vw;
+		height: 20vh;
+		top: 30vh;
+	}
+	.end {
+		width: 180vw;
+	}
+	.text-end {
+		left: 110vw;
+	}
+	.film img{
+		width: 250vw;
+		top: -27vh;
+	}
+	.clothes-box {
+		margin-top: 0px;
+		margin-left: 25vw;
+		top: 0px;
+		bottom: 50vh;
+	}
+	.craze {
+		justify-content: flex-end;
+	}
+	.layout-one {
+		width: 100vw;
+		justify-content: flex-start;
+		height: 1vh;
+	}
+	.quote {
+		width: 40vw;
+	}
+	.layout-two {
+		width: 100vw;
+		justify-content: flex-start;
+		align-items: center;
+	}
+	.style-info {
+		width: 35vw;
+	}
+	.layout-three {
+		width: 100vw;
+		justify-content: flex-start;
+	}
+	.coolthing-name {
+		font-size: 18px;
+	}
+	.craze-info {
+		width: 100vw;
+		height: 56vh;
+	}
+}
 
 
 /*# sourceMappingURL=/demo1.ea7e4db3.css.map */
