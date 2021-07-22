@@ -9561,11 +9561,15 @@ var lscroll = new _locomotiveScroll.default({
   el: document.querySelector('[data-scroll-container]'),
   smooth: true,
   direction: 'horizontal',
-  mobile: {
-    smooth: true
+  smartphone: {
+    smooth: true,
+    direction: 'horizontal',
+    horizontalGesture: true
   },
   tablet: {
-    smooth: true
+    smooth: true,
+    direction: 'horizontal',
+    horizontalGesture: true
   }
 });
 lscroll.init();
@@ -9648,7 +9652,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51342" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52240" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
