@@ -974,10 +974,12 @@ p {
 	}
 	.clothes-box {
 		width: 45vw;
+		padding-bottom: 0px;
 		margin-top: 0px;
 		margin-left: 33vw;
 		top: 0px;
 		bottom: 50vh;
+		background-position: top;
 	}
 	.craze {
 		justify-content: flex-end;
