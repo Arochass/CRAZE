@@ -24,9 +24,6 @@ lscroll.on('scroll', (args) => {
         '[data-scroll-id="circle"]'
       )[0]
       circle.style.transform = `rotate(${rotateDeg}deg)`
-      console.log(rotateDeg)
-      // circle.style.transform = "translateX(60vw)";
-      // circle.style.transform = "translateY(40vh)";
     }
 
     if (typeof args.currentElements['changeimg'] === 'object') {
