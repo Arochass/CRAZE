@@ -973,13 +973,15 @@ p {
 		top: -27vh;
 	}
 	.clothes-box {
+		width: 45vw;
 		margin-top: 0px;
-		margin-left: 25vw;
+		margin-left: 33vw;
 		top: 0px;
 		bottom: 50vh;
 	}
 	.craze {
 		justify-content: flex-end;
+		padding-bottom: 5vh;
 	}
 	.layout-one {
 		width: 100vw;
