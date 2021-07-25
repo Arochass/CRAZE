@@ -171,11 +171,18 @@
 	background-size: cover;
 	background-position: right;
 	padding-left: 8vw;
+	position: relative;
+}
+.tip {
+	position: absolute;
+	top: 5vh;
+	right: 10vw;
+	white-space: normal;
 }
 
 .text-home {
 	width: 430px;
-	height: 310px;
+	height: 300px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
