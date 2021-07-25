@@ -932,6 +932,10 @@ p {
 	}
 }
 @media only screen and (max-width: 414px) {
+	.tip {
+		bottom: 10vh;
+		left: 10vw;
+	}
 	.text-home {
 		top: 13vh;
 		left: 20vw;
