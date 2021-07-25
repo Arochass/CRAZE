@@ -174,10 +174,12 @@
 	position: relative;
 }
 .tip {
+	width: 50vw !important;
 	position: absolute;
-	top: 5vh;
-	right: 10vw;
-	white-space: normal;
+	top: 90vh;
+	left: 10vw;
+	text-align: left;
+	opacity: 0;
 }
 
 .text-home {
@@ -609,6 +611,9 @@ p {
 } */
 
 @media only screen and (max-width: 1113px) {
+	.tip {
+		opacity: 100;
+	}
 
 	.circle-start {
 		transform: translate(58vw, 55vh);
@@ -751,6 +756,9 @@ p {
 }
 
 @media only screen and (max-width: 900px) {
+	.tip {
+		left: 14vw;
+	}
 	.menu {
 		height: 40px;
 		transform: rotate(90deg) translate(calc(50vh - 20px ), calc(50vh - 20px));
@@ -933,8 +941,8 @@ p {
 }
 @media only screen and (max-width: 414px) {
 	.tip {
-		bottom: 10vh;
-		left: 10vw;
+		top: 90vh;
+		left: 20vw;
 	}
 	.text-home {
 		top: 13vh;
